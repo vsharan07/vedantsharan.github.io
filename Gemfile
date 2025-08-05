@@ -7,5 +7,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache"
+ggem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+  gem "jekyll-include-cache"
+  gem "jekyll-feed"
+end
