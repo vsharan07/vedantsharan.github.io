@@ -9,6 +9,3 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache"
-
-group :jekyll_plugins do
-  gem "jekyll-include-cache"
