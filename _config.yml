@@ -28,7 +28,7 @@ twitter_username: vedant_sharan
 github_username:  vsharan07
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
   - jekyll-feed
